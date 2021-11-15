@@ -23,10 +23,10 @@ fig = plt.figure()  # создание объекта для рисования 
 plt.title('Зависимость плотности атмосферы от высоты')  # заголовок
 plt.xlabel('h, км')  # подпись оси OX
 plt.ylabel('ρ, кг/м3')  # подпись оси OY
+plt.grid(True)
 plt.plot(x, y)
 plt.show()
 
 ```
 #### Вот так выглядит график
-
-![image](https://user-images.githubusercontent.com/59434040/141749912-5d964205-1cf9-40d9-ad99-73a7b8f8868f.png)
+![image](https://user-images.githubusercontent.com/59434040/141752687-2aa5c2a7-16c3-4917-9701-01d4c5a9af50.png)
